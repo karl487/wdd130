@@ -50,7 +50,7 @@ main img {
     height: auto;
     border: #333;
     padding: 1rem;
-    box-shadow: #333;
+    box-shadow: 0 0 30px #333;
 }
 
 footer {
