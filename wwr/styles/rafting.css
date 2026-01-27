@@ -1,6 +1,6 @@
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+
     --accent1-color: #264653;
     --heading-font: "Times New Roman", "georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -52,7 +52,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 200%;
     width: 100%;
@@ -66,4 +66,8 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
 }
