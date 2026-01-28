@@ -65,9 +65,5 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
-}
-
-.hero article {
-    position: absolute;
+    width: 125px
 }
