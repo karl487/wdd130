@@ -1,9 +1,15 @@
 :root {
     --primary-color: #055a05;
-
+    --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --heading-font: "Times New Roman", "georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, san-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 * {
@@ -27,7 +33,10 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    background-color: var(--accent1-color);
+
 }
 
 nav,
@@ -36,6 +45,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
 }
 
 .socialmedia a {
@@ -44,17 +54,19 @@ article {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
-.hero h1 {
+h1 {
     position: absolute;
-    top: 200%;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -63,11 +75,17 @@ article {
     color: #fff;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero article img {
     float: right;
-    width: 125px
+    width: 125px;
+
+}
+
+.hero article p,
+article img {
+    top: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
