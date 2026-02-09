@@ -8,14 +8,14 @@
 }
 
 footer {
-    background-color: #cbc3e3;
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 2fr 1fr;
 
 }
 
 header {
-    background-color: #cbc3e3;
+    background-color: var(--primary-color);
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
