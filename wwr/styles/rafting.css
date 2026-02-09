@@ -91,7 +91,7 @@ article {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 300px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -105,12 +105,12 @@ article {
     width: 100px;
     position: absolute;
     right: 10%;
-    top: 270px;
+    top: 510px;
 
 }
 
 .hero article p {
-    top: 250px;
+    top: 480px;
     width: 87%;
     position: absolute;
     background-color: var(--accent1-color);
