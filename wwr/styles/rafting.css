@@ -7,9 +7,20 @@
     --body-font: Arial, Helvetica, san-serif;
 }
 
+footer {
+    background-color: #cbc3e3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
 header {
-    background-color: var(--primary-color);
+    background-color: #cbc3e3;
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
 }
 
 * {
@@ -28,6 +39,19 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+nav,
+main,
+
+div,
+section,
+figure {
+    border: 2px solid #ccc;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 h1,
@@ -81,12 +105,12 @@ article {
     width: 100px;
     position: absolute;
     right: 10%;
-    top: 470px;
+    top: 270px;
 
 }
 
 .hero article p {
-    top: 450px;
+    top: 250px;
     width: 87%;
     position: absolute;
     background-color: var(--accent1-color);
