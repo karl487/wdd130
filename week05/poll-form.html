@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Contact Information</h1>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Full Name: </label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="useremail" required>
+            </div>
+            <h1>questions</h1>
+
+            <label for="quantity">select Quantity</label>
+            <select name="quantity" id="quantity">
+                <option value="1">one</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+            </select>
+            <div class="form-item column1">
+                <label for="browser">what is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have household pet</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item column2">
+                <label for="feedback">List the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                  placeholder="stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+            </div>
+
+
+            <button type="submit">submit poll</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
