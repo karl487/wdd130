@@ -173,7 +173,7 @@ section:first-of-type h2 {
     top: -100px;
 }
 
-section h3 {
+section h2 {
     position: absolute;
     left: 400px;
     text-align: center;
