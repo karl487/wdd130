@@ -156,6 +156,7 @@ figure {
 figure img {
     display: block;
     height: auto;
+
 }
 
 section:first-of-type {
@@ -170,4 +171,83 @@ section:first-of-type h2 {
     left: 400px;
     position: relative;
     top: -100px;
+}
+
+section h3 {
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    top: 1368px;
+}
+
+.contact-container {
+
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact h1,
+p {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contact-form {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect width */
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.subscribe-label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.subscribe-label input {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
