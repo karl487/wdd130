@@ -31,10 +31,12 @@
         </div>
         <div class="contact-container">
 
-            <div><iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6237.732301209023!2d36.79372511108711!3d-1.2565349108564303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1771063952720!5m2!1sen!2ske"
+            <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12310.961658354043!2d36.80585202035488!3d-1.3016023515853785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1771186034494!5m2!1sen!2ske"
                   width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
             <form>
                 <div class="form-item column2">
@@ -45,13 +47,20 @@
                     <label for="useremail">Email:</label>
                     <input type="text" id="useremail" name="useremail" required>
                     <div>
-                        <label for="purpose">Message Purpose</label>
-                        <select name="purpose" id="purpose">
-                            <option value="general">General Inquiry</option>
-                            <option value="reservation">Reservation Question</option>
-                            <option value="website">Website Suggestion</option>
-                        </select>
 
+                        <label><b>Message Purpose</b></label>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="general" checked> General
+                            Inquiry
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="reservation"> Reservation
+                            Question
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion
+                        </label>
 
                     </div>
 
@@ -72,6 +81,10 @@
         </div>
         <section>
             <h2>We Are to Serve You</h2>
+        </section>
+
+        <section>
+
             <figure>
                 <img src="images/download.jpg" alt="employee 1" width="100">
                 <figcaption>supervisor</figcaption>
